@@ -3,7 +3,7 @@
 *.DS_Store
 
 #Visual Studio files
-.vscode
+.vscode/
 *.[Oo]bj
 *.user
 *.aps
