@@ -6,10 +6,7 @@
 
 {% block content %}
 <h1>Local Library Home</h1>
-<p>
-	Welcome to LocalLibrary, a website developed by
-	<em>Mozilla Developer Network</em>!
-</p>
+<p>Welcome to LocalLibrary, a website developed by <em>Mozilla Developer Network</em>!</p>
 <h2>Dynamic content</h2>
 <p>The library has the following record counts:</p>
 <ul>
@@ -20,4 +17,5 @@
 	<li><strong>Authors:</strong> {{ num_authors }}</li>
 	<li><strong>Genres:</strong> {{ num_genres }}</li>
 </ul>
+<p>You have visited this page {{ num_visits }} time{{ num_visits|pluralize }}.</p>
 {% endblock %}
