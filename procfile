@@ -1,1 +1,1 @@
-web: python3 manage.py migrate && python3 manage.py collectstatic && gunicorn locallibrary.wsgi
+web: python manage.py migrate && python manage.py collectstatic && gunicorn locallibrary.wsgi
